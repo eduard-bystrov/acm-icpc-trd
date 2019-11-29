@@ -18,7 +18,7 @@ def main():
         ".tex": "\\input",
         ".texs": "\\includetex",
         ".py": "\\includepy",
-		".java": "\\includejava"
+		".java": "\\includecpp"
         # Can be expanded to more langs if needed
     }
     source_path = os.path.join(os.path.normpath(os.getcwd()), "src")
